@@ -59,15 +59,21 @@ a {
 }
 .search-box button {
 	font-style:bold;
-	font-weight: 600;
+
 	padding: 15px 0;
 	width: 27%;
-	background-color: #0a0a0b;
+	
 	border: none;
 	outline: none;
 	color: #eae0e001;
 	border-radius: 10px;
-	font-size: 13px;
+	
+    font-size: initial;
+	background-color: #010101;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 3px 3px red;
+    font-family: emoji;
 }
 .result {
 	position: relative;
